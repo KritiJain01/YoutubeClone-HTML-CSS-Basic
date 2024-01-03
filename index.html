@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="videos.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg" alt="menu-picture" class="menu-icon">
+            <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg" alt="youtube-logo" class="youtube-logo">
+            
+        </div>
+        <div class="search-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg" alt="search-button" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="mic-btn">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg" alt="mic-button" class="mic-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>          
+        </div>
+        <div class="right-section">
+            <div class="create-icon">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg" alt="create-button" class="create-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="tile-icon">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg" alt="menu-button" class="tile-icon">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="bell-icon">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg" alt="notifications-button" class="bell-icon">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-dot">3</div>
+            </div>
+            
+            <img src="https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI" alt="my-profile" class="profile-icon">
+        </div>
+    </header>
+
+    <div class="main-content">
+        <nav class="nav-bar">
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg" alt="Home" class="home-logo">
+                <div class="navbar-info">Home</div>
+            </div>
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg" alt="Explore" class="explore-logo">
+                <div class="navbar-info">Explore</div>
+            </div>
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg" alt="Subscriptions" class="subscriptions-logo">
+                <div class="navbar-info">Subscriptions</div>
+            </div>
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg" alt="Originals" class="originals-logo">
+                <div class="navbar-info">Originals</div>
+            </div>
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg" alt="Youtube Music" class="youtube-music-logo">
+                <div class="navbar-info">Youtube Music</div>
+            </div>
+            <div class="navbar-link">
+                <img src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg" alt="Library" class="library-logo">
+                <div class="navbar-info">Library</div>
+            </div>
+        </nav>
+    
+        <section class="videos">
+            
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">14:20</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/mkbhd" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+                            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/mkbhd" target="_blank">
+                            <p class="video-author">Marques Brownlee</p>
+                        </a>
+                        <p class="video-stats">4.2M views &#183;  2 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">8:22</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/markiplier" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=mP0RAo9SKZk" target="_blank">
+                            <p class="video-title">Try Not To Laugh Challenge #9</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/markiplier" target="_blank">
+                            <p class="video-author">Markiplier</p>
+                        </a>
+                        <p class="video-stats">21M views &#183;  6 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">9:13</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/user/SSSniperWolf" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank">
+                            <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/user/SSSniperWolf" target="_blank">
+                            <p class="video-author">SSSniperWolf</p>
+                        </a>
+                        <p class="video-stats">14M views &#183;  3 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">22:09</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/veritasium" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">
+                            <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/veritasium" target="_blank">
+                            <p class="video-author">Veritasium</p>
+                        </a>
+                        <p class="video-stats">37M views &#183;  2 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">11:17</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/CSDojo" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-5.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank">
+                            <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/CSDojo" target="_blank">
+                            <p class="video-author">CS Dojo</p>
+                        </a>
+                        <p class="video-stats">665K views &#183;  7 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">19:59</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-6.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=yXWw0_UfSFg target="_blank"">
+                            <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank">
+                            <p class="video-author">Mr Beast</p>
+                        </a>
+                        <p class="video-stats">276M views &#183;  3 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-7.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">10:13</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-7.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=fNVa1qMbF9Y" target="_blank">
+                            <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww" target="_blank">
+                            <p class="video-author">RealLifeLore</p>
+                        </a>
+                        <p class="video-stats">8.3M views &#183;  3 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-8.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">7:12</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-8.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=lFm4EM1juls" target="_blank">
+                            <p class="video-title">Inside The World's Biggest Passenger Plane</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                            <p class="video-author">Tech Vision</p>
+                        </a>
+                        <p class="video-stats">9M views &#183;  2 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-9.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">13:17</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-9.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=ixmxOlcrlUc" target="_blank">
+                            <p class="video-title">The SECRET to Super Human STRENGTH</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS" target="_blank">
+                            <p class="video-author">ThenX</p>
+                        </a>
+                        <p class="video-stats">23M views &#183;  5 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-10.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">7:53</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/user/businessinsider" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-10.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=R2vXbFp5C9o" target="_blank">
+                            <p class="video-title">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/user/businessinsider" target="_blank">
+                            <p class="video-author">Business Insider</p>
+                        </a>
+                        <p class="video-stats">19M views &#183;  3 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-11.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">4:10</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/c/Destinationtips" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-11.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=0nZuYyXET3s" target="_blank">
+                            <p class="video-title">Dubai's Crazy Underwater Train and Ither Things #Only in Dubai</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/c/Destinationtips" target="_blank">
+                            <p class="video-author">Destination Tips</p>
+                        </a>
+                        <p class="video-stats">4.7M views &#183;  3 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+                        <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-12.webp" alt="video thumbnail" class="video-preview-img">
+                        <div class="time">4:15</div>
+                    </a>
+                </div>
+                <div class="info">
+                    <div class="channel-profile">
+                        <a class="channel-link" href="https://www.youtube.com/teded" target="_blank">
+                            <img src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-12.jpeg" alt="profile picture" class="profile-picture">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <a class="video-link" href="https://www.youtube.com/watch?v=9iMGFqMmUFs" target="_blank">
+                            <p class="video-title">What would happen if you didn't drink water? - Mia Nacamulli</p>
+                        </a>
+                        <a class="channel-link" href="https://www.youtube.com/teded" target="_blank">
+                            <p class="video-author">TED-Ed</p>
+                        </a>
+                        <p class="video-stats">20M views &#183;  7 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+
+</body>
+</html>

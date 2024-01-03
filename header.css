@@ -1,0 +1,235 @@
+.header{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(202, 198, 198);
+    z-index: 100;
+    /* left: 0; */
+    /* right: 0; */
+}
+
+img{
+    height: 40%;
+}
+
+.left-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+}
+
+.menu-icon{
+    margin-left: 25px;
+    margin-right: 16px;
+}
+
+.menu-icon:hover{
+    cursor: pointer;
+}
+
+.youtube-logo:hover{
+    cursor: pointer;
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+    flex : 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+}
+
+.search-bar{
+    height: 34px;
+    flex: 1;
+    border: 1px solid #ccc;
+    box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.05);
+    width : 0;
+
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.search-btn{
+    height: 38px;
+    width : 55px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    position: relative;
+}
+
+.search-btn .tooltip{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 8px 6px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -44px;
+    left: -0.5px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity,background-color 0.15s;
+    pointer-events: none;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    background-color: #ececec;
+}
+
+.search-btn:hover .tooltip{
+    opacity: 1;
+}
+
+.search-icon{
+    height: 68%;
+    margin-top: 4px;
+}
+
+.mic-btn{
+    height: 40px;
+    width : 40px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 10px;
+    position: relative;
+}
+
+.mic-btn .tooltip{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 8px 6px;
+    width: 135px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -42px;
+    left: -50px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.mic-btn:hover{
+    cursor: pointer;
+}
+
+.mic-btn:hover .tooltip{
+    opacity: 1;
+}
+
+.mic-icon{
+    height: 60%;
+    margin-top: 4px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 225px;
+    flex-shrink: 0;
+}
+
+.right-section > div{
+    vertical-align: top;
+    align-content: center;
+    width: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section > div:hover{
+    cursor: pointer;
+}
+
+.create-icon .tooltip{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 8px 6px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -44px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.create-icon:hover .tooltip{
+    opacity: 1;
+}
+
+.tile-icon .tooltip{
+    background-color: rgb(109, 109, 109);
+    white-space: nowrap;;
+    color: white;
+    padding: 8px 6px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -44px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.tile-icon:hover .tooltip{
+    opacity: 1;
+}
+
+.bell-icon .tooltip{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 8px 6px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -44px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.bell-icon:hover .tooltip{
+    opacity: 1;
+}
+
+
+.notification-dot{
+    height: 14px;
+    width: 14px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: rgb(194, 9, 9);
+    color: white;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    text-align: center;
+    padding-top: 1.2px;
+    font-size: 10px;
+}
+
+.profile-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.right-section img:hover{
+    cursor: pointer;
+}

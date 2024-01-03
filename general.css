@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+    font-family: Roboto, Arial;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 0 auto;
+}
+
+.nav-bar{
+    width : 75px;
+    z-index : 200;
+}
+
+.videos{
+    margin-left: 75px;
+    padding: 20px;
+    flex: 1fr;
+}
